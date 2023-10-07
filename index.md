@@ -3,15 +3,13 @@
 layout: home
 
 hero:
-  name: "FirstAsk"
-  text: "人类高质量开源项目"
-  tagline: 用爱开源，用心维护
+  name: "VoerkaI18n"
+  text: "一健国际化解决方案"
+  tagline: 适用于Vue/React/Nodejs/Uniapp/ReactNative/...
   actions:
     - theme: brand
       text: Github
-      link: https://github.com/zhangfisher
-
-
+      link: https://zhangfisher.github.io/voerka-i18n/
 ---
 
 <script setup>

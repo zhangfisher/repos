@@ -10,7 +10,6 @@
             <div class="item"><StarIcon/>{{ githubRepo.stargazers_count }}</div>        
             <div class="item"><ForkIcon/>{{ githubRepo.forks }}</div>                      
         </div>
-         
     </a>
 </template>
 
