@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "FirstAsk",
-  base: '/website',
+  base: '/repos/',
   description: "用爱开源", 
   themeConfig: {
     outline:{

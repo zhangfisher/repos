@@ -1,54 +1,35 @@
 
 <template>
-    <a class="repo_card" :href="githubRepo.html_url" target="_blank">
-        <h2 class="title">{{ repo.name }}
+    <a class="repo_card" :href="'https://github.com/zhangfisher/'+ repo.name" target="_blank">
+        <h2 class="title">
+            <HomeIcon/>
+            <span class="name">{{ repo.title  }}</span>
             <GithubIcon/>
         </h2>   
-        {{ repo.title || githubRepo.description }}
-        <div class="repo_stats">
+        {{ repo.description  }}        
+        <!-- <div class="repo_stats">
             <div class="author">{{ repo.author }}</div>         
             <div class="item"><StarIcon/>{{ githubRepo.stargazers_count }}</div>        
-            <div class="item"><ForkIcon/>{{ githubRepo.forks }}</div>                      
-        </div>
+            <div class="item"><ForkIcon/>{{ githubRepo.forks_count }}</div>                      
+        </div> -->
     </a>
 </template>
 
 <script setup lang="ts">
 import type { Repo } from './types'; 
-import StarIcon from "./icons/StarIcon.vue"
-import ForkIcon from './icons/ForkIcon.vue'
+import HomeIcon from "./icons/HomeIcon.vue"
+// import ForkIcon from './icons/ForkIcon.vue'
 import GithubIcon from './icons/GithubIcon.vue'
 
-const props = defineProps<Repo>()
+const repo = defineProps<Repo>()
+
+
 
 </script>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
-import type { GithubRepo  } from './types'; 
+<script lang="ts"> 
 
-
-export default defineComponent<{
-    githubRepo:GithubRepo
-}>({
-    data() {
-        return {
-            githubRepo: {
-                stargazers_count: 0,
-                forks: 0,
-                description: '',
-            }
-        }
-    },
-    mounted() {
-        const repoUrl = `https://api.github.com/repos/${this.repo.author}/${this.repo.repo}`;
-        fetch(repoUrl).then(response=>{
-            response.json().then(data=>{
-                Object.assign(this.githubRepo,data)
-            }) 
-        })
-    }
-})
+export default {}
 </script>
 
 <style scoped>
@@ -75,6 +56,14 @@ a.repo_card{
     display: flex;
     align-items: center;
     justify-content: space-between;    
+
+}
+.repo_card > .title > .name{
+    flex-grow: 1;
+    align-items: center;
+    text-align: left;
+    padding-left: 0.5em;
+    padding-right: 1em;
 }
 
 .repo_stats{

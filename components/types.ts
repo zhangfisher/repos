@@ -3,8 +3,15 @@ export interface Repo {
     icon:string
     name:string
     author: string   
-    repo: string
+    homepage:string
+    url: string
     title: string
+    description:string
+    forks: number
+    stars: number
+    order: number    
+    tags: string[]
+    lastUpdate: string
 }
 
 // 通过Github API获取到的仓库信息

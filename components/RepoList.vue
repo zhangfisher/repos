@@ -47,7 +47,7 @@ export default {
           class="item"
           :class="[grid]"
         > 
-          <RepoCard :repo="repo" />
+          <RepoCard v-bind="repo" />
         </div>
       </div>
     </div>
