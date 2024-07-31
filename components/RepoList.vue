@@ -92,25 +92,25 @@ export default {
   .item.grid-2,
   .item.grid-4,
   .item.grid-6 {
-    width: calc(100% / 2);
+    width: calc(100% / 1);
   }
 }
 
 @media (min-width: 768px) {
   .item.grid-2,
   .item.grid-4 {
-    width: calc(100% / 2);
+    width: calc(100% / 1);
   }
 
   .item.grid-3,
   .item.grid-6 {
-    width: calc(100% /3);
+    width: calc(100% /2);
   }
 }
 
 @media (min-width: 960px) {
   .item.grid-4 {
-    width: calc(100% / 4);
+    width: calc(100% / 3);
   }
 }
 </style>
