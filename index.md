@@ -1,23 +1,31 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
-hero:
-  name: "VoerkaI18n"
-  text: "一健国际化解决方案"
-  tagline: 适用于Vue/React/Nodejs/Uniapp/ReactNative/...
-  actions:
-    - theme: brand
-      text: Github
-      link: https://zhangfisher.github.io/voerka-i18n/
 ---
+<script setup lang="ts">
 
-<script setup>
+import type { Repo,GithubRepo } from './types';
 import RepoList from './components/RepoList.vue' 
-import { data } from './data/repos.data.ts'
+import FocusRepoCard from './components/FocusRepoCard.vue' 
+import reposData  from './data/repos.json'  
+import { defaultRepoInfos,fetchRepos,updateRepos }  from './utils/fetchGithubRepos' 
+import { ref } from 'vue'
+import { getFocusRepo } from './utils/getFocusRepo'
 
+ 
+const repos = ref<Repo[]>(reposData)
+updateRepos(repos.value,defaultRepoInfos) 
+
+const focusRepo = getFocusRepo(repos.value)  
+
+fetchRepos().then((data)=>{
+   updateRepos(repos.value,data) 
+})
 
 </script>
 
-<RepoList :repos="data" /> 
+<FocusRepoCard :repo="focusRepo"/> 
+
+## 开源项目
+
+<RepoList :repos="repos" /> 
 

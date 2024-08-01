@@ -1,100 +1,138 @@
 [
     {
-        "title":"VoerkaI18n",
-        "author":"zhangfisher",
-        "name":"voerka-i18n",
-        "homepage":"",        
-        "description":"Nodejs/Vue/React国际化解决方案",        
-        "tags":[]
-    },    
-    {
-        "title":"SpeedForm",
-        "author":"zhangfisher",
-        "name":"speed-form",        
-        "description":"无以伦比的的React表单开发库 ",
-        "tags":[]
-    },     
-    {
-        "title":"FlexTree ",
-        "author":"zhangfisher",
-        "name":"flextree",        
-        "description":"Nodejs下高效的树数据库存储管理工具库",
-        "tags":[]
+        "title": "VoerkaI18n",
+        "author": "zhangfisher",
+        "name": "voerka-i18n",
+        "homepage": "",
+        "description": "全流程国际化解决方案",
+        "topics": [],
+        "focus": true,
+        "notes": "Nodejs/Vue/React/ReactNative/UniApp/..."
     },
     {
-        "title":"LiteTree ",
-        "author":"zhangfisher",
-        "name":"lite-tree",        
-        "description":"vitepress/dumi/docsify等文档网站专用的轻量树UI组件",
-        "tags":[]
+        "title": "SpeedForm",
+        "author": "zhangfisher",
+        "name": "speed-form",
+        "description": "无以伦比的的React表单开发库 ",
+        "topics": [],
+        "focus": false,
+        "notes": ""
     },
     {
-        "title":"FlexStyled",
-        "author":"zhangfisher",
-        "name":"flexstyled",        
-        "description":"轻量React/CSS-IN-JS解决方案",
-        "tags":[]
+        "title": "FlexTree ",
+        "author": "zhangfisher",
+        "name": "flextree",
+        "description": "Nodejs下高效的树数据库存储管理工具库",
+        "topics": [],
+        "focus": false,
+        "notes": ""
     },
     {
-        "title":"FlexState",
-        "author":"zhangfisher",
-        "name":"flexstate",        
-        "description":"有限状态机实现",
-        "tags":[]
+        "title": "LiteTree ",
+        "author": "zhangfisher",
+        "name": "lite-tree",
+        "description": "vitepress/dumi/docsify等文档网站专用的轻量树UI组件",
+        "topics": [],
+        "focus": false,
+        "notes": ""
     },
     {
-        "title":"FlexTools",
-        "author":"zhangfisher",
-        "name":"flex-tools",        
-        "description":"实现工具函数库",
-        "tags":[]
-    },{
-        "title":"FlexVars",
-        "author":"zhangfisher",
-        "name":"flexvars",        
-        "description":"强大的字符串插值工具库",
-        "tags":[]
+        "title": "FlexStyled",
+        "author": "zhangfisher",
+        "name": "flexstyled",
+        "description": "轻量React/CSS-IN-JS解决方案",
+        "topics": [],
+        "focus": false,
+        "notes": ""
     },
     {
-        "title":"flex-decorators",
-        "author":"zhangfisher",
-        "name":"flex-decorators",        
-        "description":"简化装饰器开发的工具库",
-        "tags":[]
+        "title": "FlexState",
+        "author": "zhangfisher",
+        "name": "flexstate",
+        "description": "有限状态机实现",
+        "topics": [],
+        "focus": false,
+        "notes": ""
     },
     {
-        "title":"voerkalogger",
-        "author":"zhangfisher",
-        "name":"voerkalogger",        
-        "description":"日志工具库",
-        "tags":[]
+        "title": "FlexTools",
+        "author": "zhangfisher",
+        "name": "flex-tools",
+        "description": "实用的工具函数库",
+        "topics": [],
+        "focus": false,
+        "notes": ""
     },
     {
-        "title":"vue-style-bundler",
-        "author":"zhangfisher",
-        "name":"vite-plugin-vue-style-bundler",        
-        "description":"Vite插件/将Vue组件中的样式注入到JS文件中",
-        "tags":[]
+        "title": "FlexVars",
+        "author": "zhangfisher",
+        "name": "flexvars",
+        "description": "强大的字符串插值工具库",
+        "topics": [],
+        "focus": false,
+        "notes": ""
     },
     {
-        "title":"mixcli",
-        "author":"zhangfisher",
-        "name":"mixcli",        
-        "description":"增强型命令行开发工具，能自动生成交互提示",
-        "tags":[]
+        "title": "flex-decorators",
+        "author": "zhangfisher",
+        "name": "flex-decorators",
+        "description": "简化装饰器开发的工具库",
+        "topics": [],
+        "focus": false,
+        "notes": ""
     },
     {
-        "title":"logsets",
-        "author":"zhangfisher",
-        "name":"logsets",        
-        "description":"终端输出增强组件",
-        "tags":[]
+        "title": "voerkalogger",
+        "author": "zhangfisher",
+        "name": "voerkalogger",
+        "description": "日志工具库",
+        "topics": [],
+        "focus": false,
+        "notes": ""
     },
     {
-        "title":"json_comments_extension",
-        "author":"zhangfisher",
-        "name":"json_comments_extension",        
-        "description":"VSCODE插件/支持为任意JSON文件注入注释",
-        "tags":[]
+        "title": "vue-style-bundler",
+        "author": "zhangfisher",
+        "name": "vite-plugin-vue-style-bundler",
+        "description": "Vite插件/将Vue组件中的样式注入到JS文件中",
+        "topics": [],
+        "focus": false,
+        "notes": ""
+    },
+    {
+        "title": "mixcli",
+        "author": "zhangfisher",
+        "name": "mixcli",
+        "description": "增强型命令行开发工具，能自动生成交互提示",
+        "topics": [],
+        "focus": false,
+        "notes": ""
+    },
+    {
+        "title": "logsets",
+        "author": "zhangfisher",
+        "name": "logsets",
+        "description": "终端输出增强组件",
+        "topics": [],
+        "focus": false,
+        "notes": ""
+    },
+    {
+        "title": "json_comments_extension",
+        "author": "zhangfisher",
+        "name": "json_comments_extension",
+        "description": "VSCODE插件/支持为任意JSON文件注入注释",
+        "topics": [],
+        "focus": false,
+        "notes": ""
+    },
+    {
+        "title": "AsyncSignal",
+        "author": "zhangfisher",
+        "name": "asyncsignal",
+        "description": "异步信号处理库",
+        "topics": [],
+        "focus": false,
+        "notes": ""
     }
 ]
