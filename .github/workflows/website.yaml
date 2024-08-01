@@ -49,12 +49,12 @@ jobs:
         run: node utils/updateRepos.js
       - name: Build with VitePress
         run: |
-          pnpm docs:build # or  npm run docs:build / yarn docs:build / bun run docs:build
-          touch docs/.vitepress/dist/.nojekyll
+          pnpm build  
+          touch .vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: docs/.vitepress/dist
+          path: .vitepress/dist
 
   # Deployment job
   deploy:
