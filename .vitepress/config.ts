@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/repos/',
   description: "用爱开源", 
   appearance:'dark',
-  themeConfig: {
+  themeConfig: {    
     outline:{
       level:[2,4],
       label: '目录',
