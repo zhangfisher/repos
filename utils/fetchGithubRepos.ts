@@ -18,7 +18,7 @@ export function pickRepoInfos(repos:GithubRepo[]) {
           stars     : repo.stargazers_count,
           lastUpdate: repo.updated_at,
           url       : repo.html_url,
-          homepage  : repo.homepage,
+          // homepage  : repo.homepage,
           topics    : repo.topics,
           private   : repo.private,
         }
