@@ -17,7 +17,6 @@
 </template>
 
 <script setup lang="ts"> 
-import { withDefaults } from 'vue'
 import type { Repo } from './types'; 
 import ForkIcon from './icons/ForkIcon.vue'
 import StarIcon from './icons/StarIcon.vue'

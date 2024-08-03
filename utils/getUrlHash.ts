@@ -1,4 +1,5 @@
 export function getUrlHash(): string {
+  if (typeof window !== 'undefined') {
     const url = window.location.href;
     const hashIndex = url.indexOf("#");
     
@@ -8,3 +9,5 @@ export function getUrlHash(): string {
       return url.substring(hashIndex + 1);
     }
   }
+  return "";
+}

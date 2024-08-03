@@ -35,5 +35,20 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cnrepos/website' }
     ]
-  }
+  },
+  head: [  
+      [
+        'script',
+        {},
+        ` 
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?3825fe54a812ed665c0e160e73edff56";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })(); 
+        `
+      ]
+    ]
 })
