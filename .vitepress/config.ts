@@ -5,9 +5,7 @@ export default defineConfig({
   title: "FirstAsk",
   base: '/repos/',
   description: "用爱开源", 
-  appearance:{
-    initialValue:'dark'
-  },
+  appearance: 'force-dark',
   themeConfig: {    
     outline:{
       level:[2,4],
