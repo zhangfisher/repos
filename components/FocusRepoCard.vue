@@ -13,7 +13,7 @@ const { repo } =  defineProps<{repo:Repo}>()
         <div class="notes">{{ repo.notes }}</div>
         <div class="actions">
             <VPButton text="Home" :href="repo.homepage.length ==0 ? repo.url : repo.homepage" ></VPButton>
-            <VPButton text="Github":href="repo.url" theme="alt"/>
+            <VPButton text="Github" :href="repo.url" theme="alt"/>
         </div>
     </div>
     <div class="right">
