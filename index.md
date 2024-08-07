@@ -15,7 +15,7 @@ import { getFocusRepo } from './utils/getFocusRepo'
 const repos = ref<Repo[]>(reposData)
 updateRepos(repos.value,defaultRepoInfos) 
 
-const focusRepo = ref<Repo>(getFocusRepo(repos.value))
+const focusRepo = getFocusRepo(repos.value)
 
 fetchRepos().then((data)=>{
    updateRepos(repos.value,data) 
