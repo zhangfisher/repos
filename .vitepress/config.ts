@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "FirstAsk",
   base: '/repos/',
-  description: "用爱开源", 
+  description: "用爱开源",  
   appearance: {
     initialValue:'dark',
   },
@@ -35,7 +35,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/cnrepos/website' }
+      { icon: 'github', link: 'https://github.com/zhangfisher' }
     ]
   },
   head: [  
