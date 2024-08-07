@@ -8,6 +8,6 @@ export function getFocusRepo(repos:Repo[],defaultRepo:string='voerka-i18n'){
     if(!repo){
         repo = repos.find(repo => repo.name === defaultRepo)
     }
-    console.log("focus repo :",repo)    
+    console.log("focus repo :",repoName, repo)    
     return repo
 }
