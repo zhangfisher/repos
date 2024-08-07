@@ -10,4 +10,4 @@ export function getFocusRepo(repos:Repo[],defaultRepo:string='voerka-i18n'){
     }
     console.log("focus repo :",repoName, repo)    
     return repo
-}
+}  
