@@ -15,7 +15,7 @@ import { getFocusRepo } from './utils/getFocusRepo'
 const repos = ref<Repo[]>(reposData)
 updateRepos(repos.value,defaultRepoInfos) 
 
-const focusRepo = getFocusRepo(repos.value)  
+const focusRepo =ref<Repo>(getFocusRepo(repos.value))
 
 fetchRepos().then((data)=>{
    updateRepos(repos.value,data) 
@@ -23,7 +23,7 @@ fetchRepos().then((data)=>{
 
 </script>
 
-<FocusRepoCard :repo="focusRepo"/> 
+<FocusRepoCard :repo="focusRepo.value"/> 
 
 ## 开源项目
 
