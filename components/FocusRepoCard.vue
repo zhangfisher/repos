@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import  { VPButton } from 'vitepress/theme'
+// import  { VPButton } from 'vitepress/theme'
 import type { Repo } from "./types" 
 
 const { repo } =  defineProps<{repo:Repo}>()
@@ -10,13 +10,13 @@ const { repo } =  defineProps<{repo:Repo}>()
     <div class="left">
         <div class="title">{{repo.title}}</div>
         <div class="description">{{ repo.description }}</div>
-        <div class="notes">{{ repo.notes }}</div>
+        <!-- <div class="notes">{{ repo.notes }}</div> -->
         <div class="actions">
-            <button>{{ repo.homepage.length ==0 ? repo.url : repo.homepage }}</button>
-            <button>{{ repo.url }}</button>
-
+            <a class="home" :href="repo.homepage.length ==0 ? repo.url : repo.homepage">Home</a>
+            <a class="repo" :href="repo.url">Github</a>
+<!-- 
             <VPButton text="Home" :href="repo.homepage.length ==0 ? repo.url : repo.homepage" ></VPButton>
-            <VPButton text="Github" :href="repo.url" theme="alt"/>
+            <VPButton text="Github" :href="repo.url" theme="alt"/> -->
         </div>
     </div>
     <div class="right">
@@ -43,7 +43,44 @@ const { repo } =  defineProps<{repo:Repo}>()
 .focus-repo .VPButton{
     text-decoration: none;
 }
+
+.focus-repo .actions>.home{
+    text-decoration: none;
+    border-color: var(--vp-button-brand-border);
+    color: var(--vp-button-brand-text);
+    background-color: var(--vp-button-brand-bg);
+    display: inline-block;
+    border: 1px solid transparent;
+    text-align: center;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: color 0.25s, border-color 0.25s, background-color 0.25s;
+    border-radius: 20px;
+    padding: 0 20px;
+    line-height: 38px;
+    font-size: 14px;
+    margin-right: 1em;
+}
  
+
+.focus-repo .actions>.repo{
+    text-decoration: none;
+    border-color: var(--vp-button-alt-border);
+    color: var(--vp-button-alt-text);
+    background-color: var(--vp-button-alt-bg);
+    display: inline-block;
+    border: 1px solid transparent;
+    text-align: center;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: color 0.25s, border-color 0.25s, background-color 0.25s;
+    border-radius: 20px;
+    padding: 0 20px;
+    line-height: 38px;
+    font-size: 14px;
+}
+
+
 .focus-repo .left {
   display: flex;  
   flex-grow: 1;
