@@ -20,11 +20,9 @@ const focusRepo = getFocusRepo(repos.value)
 fetchRepos().then((data)=>{
    updateRepos(repos.value,data) 
 })
+// <FocusRepoCard :repo="focusRepo"/>  
 
 </script>
 
-<FocusRepoCard :repo="focusRepo"/> 
-
-## 开源项目
-
+ 
 <RepoList :repos="repos" /> 
