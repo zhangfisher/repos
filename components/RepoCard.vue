@@ -63,8 +63,9 @@ div.repo-card{
     align-items: center;
     text-align: left;
     padding: 0.2em 1em 0.5em 0;
-    color:rgb(160, 212, 255);
+    color:var(--vp-c-brand-1);
 }
+
 .repo-card > .header > .info{
     display: flex;
     align-items: center;
