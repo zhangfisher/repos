@@ -3,7 +3,7 @@ layout: home
 ---
 <script setup lang="ts">
 
-import type { Repo,GithubRepo } from './types';
+import type { Repo,GithubRepo } from './components/types';
 import RepoList from './components/RepoList.vue' 
 import FocusRepoCard from './components/FocusRepoCard.vue' 
 import reposData  from './data/repos.json'  
