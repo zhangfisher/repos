@@ -10,6 +10,16 @@
         "notes": "Nodejs/Vue/React/ReactNative/UniApp/..."
     },
     {
+        "title": "AutoStore",
+        "author": "zhangfisher",
+        "name": "autostore",
+        "homepage": "https://zhangfisher.github.io/autostore",
+        "description": "支持异步计算/信号组件/表单绑定的全自动状态管理库",
+        "topics": [],
+        "focus": false,
+        "notes": ""
+    },
+    {
         "title": "SpeedForm",
         "author": "zhangfisher",
         "name": "speed-form",
