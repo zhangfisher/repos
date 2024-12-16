@@ -20,16 +20,6 @@
         "notes": ""
     },
     {
-        "title": "SpeedForm",
-        "author": "zhangfisher",
-        "name": "speed-form",
-        "homepage": "https://zhangfisher.github.io/speed-form",
-        "description": "无以伦比的的React表单开发库 ",
-        "topics": [],
-        "focus": false,
-        "notes": ""
-    },
-    {
         "title": "FlexTree ",
         "author": "zhangfisher",
         "name": "flextree",        
@@ -158,5 +148,15 @@
         "topics": [],
         "focus": false,
         "notes": ""
-    }
+    },
+    {
+        "title": "PrismaShell",
+        "author": "zhangfisher",
+        "name": "prisma-shell",
+        "homepage": "https://github.com/zhangfisher/prisma-shell",
+        "description": "prisma数据库交互式控制台",
+        "topics": [],
+        "focus": false,
+        "notes": ""
+    } 
 ]
