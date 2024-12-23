@@ -158,5 +158,15 @@
         "topics": [],
         "focus": false,
         "notes": ""
+    } ,
+    {
+        "title": "unplugin-embed",
+        "author": "zhangfisher",
+        "name": "unplugin-embed",
+        "homepage": "https://github.com/zhangfisher/unplugin-embed",
+        "description": "将文件以base64方式嵌入到了源码的vite/webpack/esbuild/...插件",
+        "topics": [],
+        "focus": false,
+        "notes": ""
     } 
 ]
