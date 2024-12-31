@@ -168,5 +168,15 @@
         "topics": [],
         "focus": false,
         "notes": ""
-    } 
+    },
+    {
+        "title": "svg-captcha-embed",
+        "author": "zhangfisher",
+        "name": "svg-captcha-embed",
+        "homepage": "https://github.com/zhangfisher/svg-captcha-embed",
+        "description": "生成svg-captcha图片",
+        "topics": [],
+        "focus": false,
+        "notes": ""
+    }
 ]
