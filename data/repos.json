@@ -178,5 +178,15 @@
         "topics": [],
         "focus": false,
         "notes": ""
+    },
+    {
+        "title": "bcp47-language-tags",
+        "author": "zhangfisher",
+        "name": "bcp47-language-tags",
+        "homepage": "https://github.com/zhangfisher/bcp47-language-tags",
+        "description": "符合简化BCP47规格的语言编码库",
+        "topics": [],
+        "focus": false,
+        "notes": ""
     }
 ]
