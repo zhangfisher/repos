@@ -158,5 +158,45 @@
         "topics": [],
         "focus": false,
         "notes": ""
-    } 
+    } ,
+    {
+        "title": "FastEvent",
+        "author": "zhangfisher",
+        "name": "fastevent",
+        "homepage": "https://github.com/zhangfisher/fastevent",
+        "description": "fast event emitter",
+        "topics": [],
+        "focus": false,
+        "notes": ""
+    } ,
+    {
+        "title": "bcp47-language-tags",
+        "author": "zhangfisher",
+        "name": "bcp47-language-tags",
+        "homepage": "https://github.com/zhangfisher/bcp47-language-tags",
+        "description": "访问bcp47语言标签库",
+        "topics": [],
+        "focus": false,
+        "notes": ""
+    }  ,
+    {
+        "title": "unplugin-embed",
+        "author": "zhangfisher",
+        "name": "unplugin-embed",
+        "homepage": "https://github.com/zhangfisher/unplugin-embed",
+        "description": "将文件以BASE64嵌入到代码中",
+        "topics": [],
+        "focus": false,
+        "notes": ""
+    } ,
+    {
+        "title": "svg-captcha-embed",
+        "author": "zhangfisher",
+        "name": "svg-captcha-embed",
+        "homepage": "https://github.com/zhangfisher/svg-captcha-embed",
+        "description": "svg-captchat嵌入字体文件",
+        "topics": [],
+        "focus": false,
+        "notes": ""
+    }  
 ]
