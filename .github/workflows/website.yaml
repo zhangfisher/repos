@@ -45,7 +45,7 @@ jobs:
         run: node utils/updateRepos.js
       - name: Build with VitePress
         run: |
-          pnpm build  
+          bun run build  
           touch .vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
