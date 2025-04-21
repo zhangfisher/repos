@@ -37,12 +37,9 @@ jobs:
         with:
           node-version: 18
       - name: Setup Pages
-        uses: actions/configure-pages@v3
-      - name: Install pnpm
-        run:
-          npm install -g pnpm
+        uses: actions/configure-pages@v3 
       - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile# or npm ci / yarn install / bun install /
+        run: bun install# or npm ci / yarn install / bun install /
       - name: update repos
         run: node utils/updateRepos.js
       - name: Build with VitePress
