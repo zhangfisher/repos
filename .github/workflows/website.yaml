@@ -40,7 +40,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3 
       - name: Install dependencies
-        run: bun install# or npm ci / yarn install / bun install /
+        run: bun install  # or npm ci / yarn install / bun install /
       - name: update repos
         run: node utils/updateRepos.js
       - name: Build with VitePress
