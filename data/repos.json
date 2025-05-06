@@ -163,7 +163,7 @@
         "title": "FastEvent",
         "author": "zhangfisher",
         "name": "fastevent",
-        "homepage": "https://github.com/zhangfisher/fastevent",
+        "homepage": "https://zhangfisher.github.io/fastevent/",
         "description": "fast event emitter",
         "topics": [],
         "focus": false,
