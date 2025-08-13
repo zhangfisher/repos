@@ -198,5 +198,15 @@
         "topics": [],
         "focus": false,
         "notes": ""
-    }  
+    } ,
+    {
+        "title": "themepro",
+        "author": "zhangfisher",
+        "name": "themepro",
+        "homepage": "https://zhangfisher.github.io/themepro",
+        "description": "Create a simple, flexible, and real-time website theme",
+        "topics": [],
+        "focus": false,
+        "notes": ""
+    } 
 ]
